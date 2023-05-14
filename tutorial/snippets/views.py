@@ -40,7 +40,7 @@ def snippet_list(request, format=None):
          serializer = SnippetSerializer(data=my_dict)
          if serializer.is_valid():
              if not my_data:
-                 my_list=['Option not valid']
+                 my_list=['Option not valid - see my_ignite.py']
                  my_dict = {'code': str(my_list)}
                  serializer = SnippetSerializer(data=my_dict)
                  if serializer.is_valid():
