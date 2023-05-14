@@ -18,6 +18,8 @@
   
   cd djanago_ignite/tutorial
   
+  python manage.py runserver
+  
   http POST http://127.0.0.1:8000/snippets/ code='option1'
   
   http POST http://127.0.0.1:8000/snippets/ code='option2'
