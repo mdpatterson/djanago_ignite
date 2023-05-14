@@ -13,6 +13,5 @@
   sudo ln -s /tmp/apache-ignite  $IGNITE_HOME/work
   
   nohup bash $IGNITE_HOME/bin/ignite.sh -v $IGNITE_HOME/config/default-config.xml 1> log.txt 2>&1 &
-  
-  cd 
+
 
