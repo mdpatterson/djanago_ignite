@@ -8,11 +8,11 @@
 
   cp $IGNITE_HOME/libs/optional/ignite-rest-http $IGNITE_HOME/libs/ignite-rest-http
   
-  cd /usr/share/apache-ignite
-  
   mkdir /tmp/apache-ignite
   
-  sudo ln -s /tmp/apache-ignite work
+  sudo ln -s /tmp/apache-ignite  $IGNITE_HOME/work
   
   nohup bash $IGNITE_HOME/bin/ignite.sh -v $IGNITE_HOME/config/default-config.xml 1> log.txt 2>&1 &
+  
+  cd 
 
