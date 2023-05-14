@@ -2,7 +2,7 @@
 
 #https://www.gridgain.com/docs/latest/installation-guide/installing-on-zos
 
-  pip install requirements.txt 
+  pip install -r requirements.txt
 
   sudo apt install apache-ignite --no-install-recommends
   
